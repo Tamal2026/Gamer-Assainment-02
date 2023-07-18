@@ -67,6 +67,9 @@ background: rgba(11, 2, 35, 0.10);
     justify-content: space-around;
     gap: 30px;
 }
+.banner-content h2{
+    padding-left: 5px;
+}
 .banner-content{
    background-image: url('./images/Group\ 14.png');
    width: 40%;
@@ -98,13 +101,74 @@ margin-bottom: 20px;
 .sign-in{
     padding: 10px 32px;
     border-radius: 20px;
+    border: none;
+    background-color: #db0d36;
+    color: white;
 }
 .Go{
     padding: 10px 29px;
     border-radius: 20px;
     margin-left: 10px;
+    border: none;
+    background-color: #08a1f4;
+    color: white;
 }
 /* banner section end here */
+
+
+/* main section start here */
+
+.main-section-container{
+    text-align: center;
+    margin-top: 90px;
+}
+.main-section-desc{
+    color: #534C64;
+    margin-top: 10px;
+}
+
+.funny{
+    color: #b408f3;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin: 50px 0px 0px 50px;
+   
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1.3s;
+    background-color: rgba(45, 43, 43, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 15px;
+  }
+  
+  .image-container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    font-size: 18px;
+    text-align: center;
+    padding: 100px 0px 0px 10px;
+  }
+  .image-container img {
+    border-radius: 15px;
+    gap: 5px;
+  }
+  .main-img-container{
+    margin-left: 100px;
+  }
 
 
 
@@ -148,8 +212,30 @@ For Mobile Devices Max width 776px */
     
     /* nav section end here */
 
+
     /* banner section start here */
-    /* .banner-container{
-        flex-direction: column;
+    .banner-container{
+        flex-direction: column-reverse;
     }
-} */
+    .banner-content{
+       padding: 130px 0px 30px 170px;
+        background-size: cover;
+        width: 90%;
+        height: 400px;
+        
+    }
+    .banner-img img {
+        width: 90%;
+        margin-top: 27px;
+        padding-top: 20px;
+    }
+/* banner section end here */
+
+/* main section start here */
+.main-img-container{
+    flex-direction: column;
+}
+.main-section-container{
+    margin: 50px 100px 0px 0px;
+}
+}
