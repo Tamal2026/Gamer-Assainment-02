@@ -2,10 +2,58 @@
     margin: 0;
     padding: 0;
 }
+/* shared style */
+.primary-text{
+    color: #3C354F;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+/* nav section start here */
 .nav-container{
+    display: flex;
+    justify-content: space-around;
     height: 130px;
-    background-color: aquamarine;
+padding-top: 40px;
 }
 .nav-logo{
 display: flex;
+gap: 15px;
+}
+.nav-logo img {
+    max-width: 80px;
+    height: 25px;
+}
+.logo-G{
+    color: red;
+}
+.logo-name h3{
+   font-size: 22px;
+    
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.nav-follow-box{
+    display: flex;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    padding-left: 30px;
+    gap: 5px;
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+}
+.nav-follow-box img{
+    width: 33px;
+    height: 24px;
+
 }
