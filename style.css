@@ -35,6 +35,8 @@ gap: 15px;
    font-size: 22px;
     
 }
+
+
 .nav-menu{
     display: flex;
     justify-content: space-around;
@@ -57,3 +59,97 @@ background: rgba(11, 2, 35, 0.10);
     height: 24px;
 
 }
+/* nav section end here */
+
+/* banner section start here */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.banner-content{
+   background-image: url('./images/Group\ 14.png');
+   width: 40%;
+   padding: 120px 0px 0px 180px;
+}
+.banner-img img {
+    margin-right: 25px;
+}
+
+
+
+.banner-main-title{
+font-family: Work Sans;
+font-size: 95px;
+font-weight: 800;
+color: #0090ce;
+margin-bottom: 20px;
+}
+.banner-content-desc-container{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-top: 10px;
+}
+.banner-content-btn{
+    margin-top: 20px;
+  
+}
+.sign-in{
+    padding: 10px 32px;
+    border-radius: 20px;
+}
+.Go{
+    padding: 10px 29px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+/* banner section end here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+For Mobile Devices Max width 776px */
+
+@media screen and (max-width:776px) {
+    .nav-container{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .nav-menu{
+        flex-direction: column;
+        margin-bottom: 10px;
+        gap: 12px;
+        margin-top: 40px;
+      
+    }
+    
+    /* nav section end here */
+
+    /* banner section start here */
+    /* .banner-container{
+        flex-direction: column;
+    }
+} */
