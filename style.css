@@ -176,10 +176,6 @@ margin-bottom: 20px;
     width: 400px;
     height: 300px;
   }
-  .position-img img{
-    width: 100px;
-    height: 150px;
-  }
 /* main section end here */
 
   /* play section start here */
@@ -308,9 +304,6 @@ justify-content: center;
 
 
 
-
-
-
 /* 
 For Mobile Devices Max width 425px */
 
@@ -377,12 +370,12 @@ margin-left: 5px;
     height: 250px;
 }
 .position-img img{
-    position: relative;
+  
+ position: relative;
     bottom: 90px;
     right: 20px;
     width: 80px;
-    height: 120px;
-}
+    height: 120px;}
 
 .first-box{
     flex-wrap: wrap;
