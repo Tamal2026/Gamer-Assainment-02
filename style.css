@@ -170,6 +170,15 @@ margin-bottom: 20px;
   .main-img-container{
     display: flex;
     margin-left: 100px;
+
+  }
+  .main-img img{
+    width: 400px;
+    height: 300px;
+  }
+  .position-img img{
+    width: 100px;
+    height: 150px;
   }
 /* main section end here */
 
@@ -200,30 +209,38 @@ margin-bottom: 20px;
     position: relative;
     bottom: 280px;
     right: 140px;
-
 }
-
-
 .other-game-container{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    gap: 10px;
-   margin: 10px 300px 50px 300px;
+ display: flex;
+}
+.first-box{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.second-box{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.other-game{
+    display: flex;
+    align-items: center;
 }
 .box{
    display: flex;
    align-items: center;
-   gap: 10px;
-   border-radius: 20px;
-justify-content: center;}
+   border-radius: 18px;}
 .box:hover{
-
+color: #db0d36;
 border: 1px solid salmon;
 }
-
+ /* footer section start here */
 
 footer{
-    height: 550px;
+    margin-top: 50px;
+    height: 450px;
     width: 100%;
     background-color: black;
 }
@@ -261,7 +278,6 @@ justify-content: center;
   gap: 50px;
 }
 
-
 .footer-terms {
     color: #dcd2d2;
   text-align: center;
@@ -296,9 +312,9 @@ justify-content: center;
 
 
 /* 
-For Mobile Devices Max width 776px */
+For Mobile Devices Max width 425px */
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:425px) {
     .nav-container{
         flex-direction: column;
         align-items: center;
@@ -339,22 +355,46 @@ For Mobile Devices Max width 776px */
     margin-left: 10px;
 }
 .image-container{
-margin-left: 10px;
+margin-left: 5px;
+}
+.text{padding-left: 10px;
+
+}
+.overlay{
+    width: 83%;
 }
 /* play section start here */
 .play-section-container{
     flex-direction: column;
+    margin-top: 10px;
 }
 .play-img-section{
-    margin-left: 25px;
-    width: 100%;
+    height: auto;
+    width: auto;
 }
-.play-img-section img {
-    width: 90%;
+.main-img {
+    width: 200px;
+    height: 250px;
 }
-.other-game-container{
+.position-img img{
+    position: relative;
+    bottom: 90px;
+    right: 20px;
+    width: 80px;
+    height: 120px;
+}
+
+.first-box{
     flex-wrap: wrap;
 }
+.second-box{
+ flex-wrap: wrap;
+ margin-bottom: 50px;
+}
+
+
+    
+
 /* footer section start here */
 
 .footer-menu>ul {
