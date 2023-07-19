@@ -151,6 +151,7 @@ margin-bottom: 20px;
     align-items: center;
     color: #fff;
     border-radius: 15px;
+    border: 2px solid rgb(191, 43, 43);
   }
   
   .image-container:hover .overlay {
@@ -167,13 +168,109 @@ margin-bottom: 20px;
     gap: 5px;
   }
   .main-img-container{
+    display: flex;
     margin-left: 100px;
   }
+/* main section end here */
+
+  /* play section start here */
+
+.play-section-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.play-section-content h1{
+    font-size: 40px;
+    text-align: center;
+}
+.play-section-content{
+    margin-bottom: 200px;
+}
+.Play{
+    color: #b408f3;
+    font-size: 40px;
+}
+.play-section-content p {
+    margin-top: 10px;
+}
+.position-img img {
+    position: relative;
+    bottom: 280px;
+    right: 140px;
+
+}
 
 
+.other-game-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+   margin: 10px 300px;
+}
+.box{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   border-radius: 20px;
+justify-content: center;}
+.box:hover{
+
+border: 1px solid salmon;
+}
 
 
+footer{
+    height: 550px;
+    width: 100%;
+    background-color: black;
+}
+.footer-logo-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-top: 100px;
+}
+.logo-name-2 h3{
+    color: white;
+font-size: 40px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-logo img{
+    height: 40px;
+    width: 90px;
+}
+.footer-menu {
+    color: white;
+list-style: none;
+text-align: center;
+margin-top: 30px;
 
+}
+.footer-menu li {
+    display: inline-block;
+   padding-left: 35px;
+   
+}
+.footer-img{
+ display: flex;
+justify-content: center;
+  margin-top: 45px;
+  gap: 50px;
+}
+
+
+.footer-terms {
+    color: #dcd2d2;
+  text-align: center;
+  margin-top: 50px;
+}
+.footer-terms p{
+    display: inline-block;
+   padding-left: 50px;
+}
 
 
 
@@ -218,7 +315,7 @@ For Mobile Devices Max width 776px */
         flex-direction: column-reverse;
     }
     .banner-content{
-       padding: 130px 0px 30px 170px;
+      padding-left: 25px;
         background-size: cover;
         width: 90%;
         height: 400px;
@@ -234,8 +331,21 @@ For Mobile Devices Max width 776px */
 /* main section start here */
 .main-img-container{
     flex-direction: column;
+    margin-left: 10px;
 }
-.main-section-container{
-    margin: 50px 100px 0px 0px;
+.image-container{
+margin-left: 10px;
 }
+/* play section start here */
+.play-section-container{
+    flex-direction: column;
+}
+.play-img-section{
+    margin-left: 25px;
+    width: 100%;
+}
+.play-img-section img {
+    width: 90%;
+}
+
 }
